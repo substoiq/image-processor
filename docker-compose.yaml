@@ -12,7 +12,7 @@ version: "3.8"
 services:
   image-processor:
     build: .
-    container_name: image-processor
+    container_name: image-processor-sh
     restart: unless-stopped
     volumes:
       - ./data/input:/data/input
